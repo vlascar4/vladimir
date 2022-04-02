@@ -1,2 +1,10 @@
-# vladimir
-can anyone fix it for me please , I want to know the age, but it keeps giving the big number
+string nome;
+            int anoatual ;
+            int anodenascimento;
+             anoatual = 2022;
+            Console.WriteLine("Qual é o seu nome ? :");
+            nome = Console.ReadLine();
+            Console.WriteLine("Qual é o ano do seu aniversário: ");
+            anodenascimento = Console.Read();
+            int subtrair =( anoatual - anodenascimento);
+            Console.WriteLine("Seu nome é "+nome+" E você tem "+subtrair+" anos" );
